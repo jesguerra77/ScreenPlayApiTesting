@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createApiUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createApiUser.feature" afterDir="false" />
-    </list>
+    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+            <state relative-caret-position="87">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -505,7 +486,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -521,7 +501,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62289155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62289155" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32891566" />
@@ -898,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+        <state relative-caret-position="87">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
