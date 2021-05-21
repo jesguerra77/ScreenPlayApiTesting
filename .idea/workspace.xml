@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="" />
+    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createApiUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createApiUser.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +28,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -18,8 +40,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,108 +76,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="435">
+              <caret line="37" column="10" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/utils/ApiInteraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Task.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Performable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.2.0/serenity-core-2.2.0.jar!/net/serenitybdd/core/SkipNested.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Question.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="360">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -146,8 +121,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>serenity-junit</find>
-      <find>cucumber.version</find>
       <find>serenity.maven.version</find>
+      <find>cucumber.version</find>
+      <find>serenity-screenplay</find>
+      <find>net.serenity-bdd.maven.plugins</find>
+      <find>org.codehaus.mojo</find>
+      <find>serenity-ensure</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -156,31 +135,44 @@
       <dir>$PROJECT_DIR$/src/test/resources/features/backend</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/features/tester.fxml" />
-        <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitios/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitions/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitions/backend/tester.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/backend/DeleteUser/deleteUserApi.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitions/backend/ApiInteractionSteps/ApiInteractionSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CommonSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitions/backend/commonsSteps/CommonSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/stepDefinitions/backend/CommonsSteps/CommonSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/backend/CreateUser/createApiUser.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ApiInteractionSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/AutomationApiInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/utils/ApiInteraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/GetCreateUserResponse.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ValidationResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" />
       </list>
     </option>
   </component>
@@ -213,6 +205,18 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ApiTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ApiTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ApiTesting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -222,16 +226,16 @@
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="814" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,30 +253,6 @@
               <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Interactions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
@@ -314,44 +294,19 @@
               <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
               <item name="apiInteractionSteps" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-              <item name="commonsSteps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -376,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.All Features in: ApiTesting">
+  <component name="RunManager" selected="JUnit.Runner2">
     <configuration name="All Features in: ApiTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -394,9 +349,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: createApiUser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: createApiUser (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/backend/CreateUser/createApiUser.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ApiTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
@@ -411,14 +366,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: el administrador desea crear usuarios en el sistema" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Crear nuevo usuario de la compañía" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/backend/CreateUser/createApiUser.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" />
+      <option name="GLUE" value="ApiRestAutomation/step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ApiTesting" />
-      <option name="NAME_FILTER" value="^el administrador desea crear usuarios en el sistema$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^el administrador desea crear usuarios en el sistema$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: el administrador desea crear usuarios en el sistema" />
+      <option name="NAME_FILTER" value="^Crear nuevo usuario de la compañía$" />
+      <option name="PROGRAM_PARAMETERS" value=" --sinippets camelcase --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Crear nuevo usuario de la compañía$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Crear nuevo usuario de la compañía" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -443,17 +399,62 @@
       <option name="MAIN_CLASS_NAME" value="ApiRestAutomation.runners.Runner" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@createUser&quot;" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner1" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiRestAutomation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiRestAutomation.runners" />
+      <option name="MAIN_CLASS_NAME" value="ApiRestAutomation.runners.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@backend&quot;" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner2" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiRestAutomation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiRestAutomation.runners" />
+      <option name="MAIN_CLASS_NAME" value="ApiRestAutomation.runners.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@tester&quot;" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.All Features in: ApiTesting" />
+      <item itemvalue="Cucumber java.Feature: createApiUser (1)" />
+      <item itemvalue="Cucumber java.Scenario: Crear nuevo usuario de la compañía" />
+      <item itemvalue="JUnit.Runner1" />
+      <item itemvalue="JUnit.Runner2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: createApiUser" />
-        <item itemvalue="Cucumber java.Scenario: el administrador desea crear usuarios en el sistema" />
+        <item itemvalue="JUnit.Runner2" />
+        <item itemvalue="JUnit.Runner1" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber java.Scenario: Crear nuevo usuario de la compañía" />
+        <item itemvalue="Cucumber java.Feature: createApiUser (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -471,39 +472,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2021.05.19 at 19h 00m 21s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 03m 40s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2021.05.19 at 19h 01m 18s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 04m 13s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2021.05.19 at 19h 01m 28s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 06m 10s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2021.05.19 at 19h 03m 37s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 07m 29s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2021.05.19 at 19h 04m 17s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 16m 34s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__createApiUser - 2021.05.19 at 19h 58m 56s.xml">
-      <configuration name="Feature: createApiUser" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 19m 16s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__el_administrador_desea_crear_usuarios_en_el_sistema - 2021.05.19 at 20h 05m 30s.xml">
-      <configuration name="Scenario: el administrador desea crear usuarios en el sistema" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 22m 17s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__createApiUser - 2021.05.19 at 20h 05m 38s.xml">
-      <configuration name="Feature: createApiUser" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 39m 44s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__createApiUser - 2021.05.19 at 20h 06m 21s.xml">
-      <configuration name="Feature: createApiUser" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Runner2 - 2021.05.20 at 19h 42m 19s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner2 - 2021.05.20 at 19h 42m 39s.xml">
+      <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="814" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33619457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,12 +516,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4759036" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52048194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5939759" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4455307" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62289155" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32891566" />
@@ -531,11 +535,90 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ApiTesting$Runner__1_.ic" NAME="Runner (1) Coverage Results" MODIFIED="1621541240293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ApiRestAutomation.runners.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>urlBase</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl.concat(apiPath)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;.replace(&quot;&quot;,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;.replace(&quot;,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;.replace(&quot;api&quot;,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;.replace('',&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;.replace(&quot; &quot;,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl + &quot;api/user&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>finalUrl.replace(&quot;&quot;,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/tester.fxml" />
@@ -592,107 +675,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/features/tester" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/tester2.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Task.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/tester2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Performable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/specification/RequestSpecification.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Question.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -703,53 +698,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Performable.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Question.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.2.0/serenity-screenplay-2.2.0.jar!/net/serenitybdd/screenplay/Task.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/utils/ApiInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/GetCreateUserResponse.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-rest-assured/2.2.0/serenity-rest-assured-2.2.0.jar!/net/serenitybdd/rest/decorators/request/RequestSpecificationConfigurable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-cucumber5/2.2.0/serenity-cucumber5-2.2.0.jar!/net/serenitybdd/cucumber/CucumberWithSerenity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/internal/RequestSpecificationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="283" column="61" selection-start-line="283" selection-start-column="61" selection-end-line="283" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/6.6.0/cucumber-java-6.6.0.jar!/io/cucumber/java/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.3.4/serenity-core-2.3.4.jar!/net/thucydides/core/steps/StepInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="10" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="108" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

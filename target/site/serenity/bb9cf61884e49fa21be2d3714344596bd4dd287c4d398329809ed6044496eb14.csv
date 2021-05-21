@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Eliminar usuarios de la compañia","Eliminar usuarios que ya no pertenecen a la compañia","PENDING","2021-05-20T18:57:38.617-05:00[America/Bogota]","0.0","0.02"
+"Eliminar usuarios de la compañia","Intentar eliminar usuarios que no existen en la compañia","PENDING","2021-05-20T18:57:38.647-05:00[America/Bogota]","0.0","0.08"
+"Eliminar usuarios de la compañia","Intentar eliminar usuarios con emial inválido","PENDING","2021-05-20T18:57:38.744-05:00[America/Bogota]","0.0","0.05"

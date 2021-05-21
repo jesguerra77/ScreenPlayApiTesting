@@ -3,20 +3,20 @@ Feature: Creación de usuario
 
   Background: el administrador desea crear usuarios en el sistema
     Given el administrador quiere crear un usuario nuevo en la compañia
-
+  @tester
   Scenario Outline: Crear nuevo usuario de la compañía
-    When realiza el registro con <nombre> y <cargo>
-    Then el empleado es creado de forma correcta
+    When "el administrador" realiza el registro correcto con <nombre> y <cargo>
+    Then el empleado con <nombre> y <cargo> es creado de forma correcta
     Examples:
       | nombre    | cargo  |
       | johnathan | leader |
       | juan      | Analyst|
 
   Scenario Outline: Crear nuevo usuario con datos incorrectos
-    When realiza el registro con <nombre> y <cargo>
-    Then el empleado no es creado correctamente
+    When "el administrador" realiza el registro incorrecto con <nombre> y <cargo>
+    Then el empleado no pudo ser creado correctamente
     Examples:
       | nombre | cargo |
-      | null   | leader|
-      | juan   | null  |
+      | NULL   | leader|
+      | juan   | NULL  |
 

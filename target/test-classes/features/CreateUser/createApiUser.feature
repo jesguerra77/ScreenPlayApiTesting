@@ -3,9 +3,9 @@ Feature: Creación de usuario
 
   Background: el administrador desea crear usuarios en el sistema
     Given el administrador quiere crear un usuario nuevo en la compañia
-
+  @tester
   Scenario Outline: Crear nuevo usuario de la compañía
-    When realiza el registro con <nombre> y <cargo>
+    When "el administrador" realiza el registro con <nombre> y <cargo>
     Then el empleado es creado de forma correcta
     Examples:
       | nombre    | cargo  |

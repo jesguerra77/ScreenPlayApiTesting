@@ -1,0 +1,11 @@
+ApiRestAutomation/Models/CreateUserRequest$CreateUserRequestBuilder.class
+ApiRestAutomation/Interactions/ApiAutomationInteraction$RootApiPaths.class
+ApiRestAutomation/Interactions/postInteraction/PostCreateUser.class
+ApiRestAutomation/Models/CreateUserResponse$CreateUserResponseBuilder.class
+ApiRestAutomation/Interactions/utils/ApiInteraction.class
+ApiRestAutomation/Models/CreateUserRequest.class
+ApiRestAutomation/Models/CreateUserResponse.class
+ApiRestAutomation/Interactions/ApiAutomationInteraction.class
+ApiRestAutomation/Task/CreateUser.class
+ApiRestAutomation/Interactions/utils/ApiInteraction$ResponseBody.class
+ApiRestAutomation/Factories/CreateUserBuilder.class
