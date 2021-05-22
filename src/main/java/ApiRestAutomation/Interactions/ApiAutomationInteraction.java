@@ -11,8 +11,8 @@ public abstract class ApiAutomationInteraction extends ApiInteraction {
 
     protected static RequestSpecification rootBasicRequest() {
         return with()
-                .contentType(ContentType.JSON)
-                .accept("*/*");
+                .header("ContentType","application/json")
+                .header("accept","*/*");
     }
 
     protected enum RootApiPaths {

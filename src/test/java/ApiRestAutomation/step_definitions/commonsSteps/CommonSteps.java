@@ -8,7 +8,7 @@ import net.thucydides.core.util.EnvironmentVariables;
 import net.thucydides.core.util.SystemEnvironmentVariables;
 
 public class CommonSteps {
-    @Given("el administrador quiere crear un usuario nuevo en la compañia$")
+    @Given("como administrador quiero validar los permisos en el sistema$")
     public void theAdminCanCreateUser() {
         EnvironmentVariables variables = SystemEnvironmentVariables.createEnvironmentVariables();
         final String urlBase = variables.getProperty("env.base.url");

@@ -1,2 +1,12 @@
-target
+target/
 .idea
+# .idea folder
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+target/
+
+# Package Files #
+*.jar

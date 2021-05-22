@@ -1,4 +1,6 @@
-ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.class
 ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.class
 ApiRestAutomation/step_definitions/Hooks.class
+ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.class
+ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.class
 ApiRestAutomation/runners/Runner.class
+ApiRestAutomation/step_definitions/Constants.class

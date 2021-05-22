@@ -1,7 +1,10 @@
 package ApiRestAutomation.step_definitions.apiInteractionSteps;
 
+import ApiRestAutomation.Interactions.getInteraction.GetUsers;
 import ApiRestAutomation.Interactions.postInteraction.PostCreateUser;
 import ApiRestAutomation.Models.CreateUserResponse;
+import ApiRestAutomation.Models.Datum;
+import ApiRestAutomation.Questions.SearchUser;
 import ApiRestAutomation.step_definitions.Constants;
 import io.cucumber.java.en.Then;
 
@@ -41,6 +44,29 @@ public class ValidationResponses {
                 seeThat("", actorSee -> actorSee.asksFor(PostCreateUser.getCreateResponse()), is(nullValue()))
         );
 
+    }
+
+    @Then("los usuarios creados en el sistema son listados")
+    public void losUsuariosCreadosEnElSistemaSonListados() {
+        theActorInTheSpotlight().should(
+                seeThat(Constants.VALID_GET_USERS.toString(), actor1 -> theActorInTheSpotlight().asksFor(
+                        getStatusCode()), equalTo(200)));
+        theActorInTheSpotlight().should(
+                seeThat("", actorSee -> actorSee.asksFor(GetUsers.getUsersResponse()), is(notNullValue()))
+        );
+    }
+
+    @Then("el usuario con el (.*) es listado en el sistema$")
+    public void elUsuarioEsListadoEnElSistema(String idUser) {
+        Datum datum = theActorInTheSpotlight().asksFor(SearchUser.with(idUser)).get(0);
+
+        theActorInTheSpotlight().should(
+                seeThat(Constants.VALID_ID_USER.toString(), actor -> datum.getId(), equalTo(idUser)),
+                seeThat(Constants.VALID_EMAIL_USER.toString(), actor -> datum.getEmail(), is(notNullValue())),
+                seeThat(Constants.VALID_LAST_NAME_USER.toString(), actor -> datum.getLastName(), is(notNullValue())),
+                seeThat(Constants.VALID_FIRST_NAME_USER.toString(), actor -> datum.getFirstName(), is(notNullValue())),
+                seeThat(Constants.VALID_AVATAR_NAME_USER.toString(), actor -> datum.getAvatar(), is(notNullValue()))
+        );
     }
 }
 

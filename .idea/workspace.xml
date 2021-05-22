@@ -1,7 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="" />
+    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/getInteraction/GetUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/GetUsersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/SearchUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/QueryUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UpdateUser/updateUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Interactions/getInteraction/GetUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/Datum$DatumBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/Datum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/GetUsersResponse$GetUsersResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/GetUsersResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/Support$SupportBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/Support.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Questions/SearchUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Task/QueryUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/31f153b36dc22143d1b34972a78c29ae699b4095f30dacbcac9f248654934e47.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3a3a4ed4892efeda024d91d70197d2314f49c5a707f0ae5694a0add336de470c.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/50c2b57d8d1b48abf6311a4268f205e595eb57b3aad2800a685045b51d5af294.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8996ab50a10737806466a825fc25a6eefc0121aef784846cf15c54ad26d31f92.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8f62cb415bc3e0530c7175d55f9623cc768af7a3898407fabcb86ba5e2356836.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/929a2cecc7e0736abf13dc953a4df6ca406f0de5086a126ac81a442b6561ecc3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9d3ae7a92340f567997bc27aac81b39186c24c2b79622fd64f58ec0d698e0227.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ff8d25500506d0f4db809b7c2935fa05497f1796da69a19fe792a049b645ae05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ab4a53ddab02fdc9e0f970248f06dec8adcc7d27f1b9bf417be686160be5f6d1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d3e19513e54ad76b75c49c6b31533176582a27f253d7c23325250580d8acbdfb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff8d25500506d0f4db809b7c2935fa05497f1796da69a19fe792a049b645ae05.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/DeleteUser/deleteUser.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/GetUsers/getUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/UpdateUser/updateUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/johnathane.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateUser/createUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ApiTesting-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ApiTesting-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Interactions/ApiAutomationInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Interactions/ApiAutomationInteraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/CreateUserResponse$CreateUserResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/CreateUserResponse$CreateUserResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/CreateUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Models/CreateUserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Task/CreateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ApiRestAutomation/Task/CreateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/074a535e6a659a53998c4ba2c697381383fd88f0f8318cc3c8e90b4749584f42.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/074a535e6a659a53998c4ba2c697381383fd88f0f8318cc3c8e90b4749584f42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b46e618c14d3ccfdf3b72d5f675a9a70ed8f1074a027e42e674c40e5d401a06.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b46e618c14d3ccfdf3b72d5f675a9a70ed8f1074a027e42e674c40e5d401a06.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b46e618c14d3ccfdf3b72d5f675a9a70ed8f1074a027e42e674c40e5d401a06.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b46e618c14d3ccfdf3b72d5f675a9a70ed8f1074a027e42e674c40e5d401a06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1452b0bcd147bdb780e6bcd87aaa766bd0ebd55f463a41065321e4d419219b9e.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1452b0bcd147bdb780e6bcd87aaa766bd0ebd55f463a41065321e4d419219b9e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/14a45f294ca216bb9c1d5d184fe9717c2bd3ac863667adc5a299b527e89bf842.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/190c706d9f24f6a0901d6a43ecea19fb3ed0eb33a9733c432bce870cf99c1e65.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/190c706d9f24f6a0901d6a43ecea19fb3ed0eb33a9733c432bce870cf99c1e65.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/19e2d9262f9661b9603cfd76868b5f0161371297c18e4cf37d3dd2a52f9eb3f4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1f2077fa286129f04f392f4872914ee6aa19c9b1f14a8bfe15bd74f76ce21b04.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2436da4e5c662ef1071e7243a322cb60c7b8f36ea1f9ea58ad9d4604d853f935.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2436da4e5c662ef1071e7243a322cb60c7b8f36ea1f9ea58ad9d4604d853f935.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2515fc6ef43cc2dd30250fd980b20e830ac0f30dd3a0d39f1dc66e75b8a93d57.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2515fc6ef43cc2dd30250fd980b20e830ac0f30dd3a0d39f1dc66e75b8a93d57.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3040da8b59ca9095d1c406f7690a2509e42aa45e2a086765ec14736482b062b4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3040da8b59ca9095d1c406f7690a2509e42aa45e2a086765ec14736482b062b4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3214c481dfd975696ca784db87c5f87bdf324da0c92019307af631bbf41ca58e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3214c481dfd975696ca784db87c5f87bdf324da0c92019307af631bbf41ca58e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3758260e527280994f3fb32e291844232384442ec979b7bbc670ec5b120c9ca3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3758260e527280994f3fb32e291844232384442ec979b7bbc670ec5b120c9ca3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3758260e527280994f3fb32e291844232384442ec979b7bbc670ec5b120c9ca3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3758260e527280994f3fb32e291844232384442ec979b7bbc670ec5b120c9ca3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3f3ef8a024c4e7251253e373aafe41b039f5fbb0c885f18856446df44f561203.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3f3ef8a024c4e7251253e373aafe41b039f5fbb0c885f18856446df44f561203.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/474701bcb2b12d067f0394ab96bcc6010bab4a6695002b788395a58f14e4978e.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4d4f62a04eda4424d8d26bf52f58f67add4889e5ee362e30fa8031d3e16315f9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/51bf39c55cdd10d1ab9e4ccdb2f80dc4862f157cd7dd0dff3c0014af1226699a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/55c14b35f3741bbc1fdc298be27c1fe435aa6b5c6234723b77f4ae8ea8db61d5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5eb07daea03952ee65d103c9162f2629403a20fefd8f087ec4212db2b9517c10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/601ca26446fc719a32f8d4f0569386c690dbf63d3c28035b7e6bab2f06a0ebf0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/601ca26446fc719a32f8d4f0569386c690dbf63d3c28035b7e6bab2f06a0ebf0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/60726ccb45c1b9ea740a2ce21b18887977fc1b3d2995dcf778b7fe3dc2cdbc69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/60726ccb45c1b9ea740a2ce21b18887977fc1b3d2995dcf778b7fe3dc2cdbc69.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/60726ccb45c1b9ea740a2ce21b18887977fc1b3d2995dcf778b7fe3dc2cdbc69.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/60726ccb45c1b9ea740a2ce21b18887977fc1b3d2995dcf778b7fe3dc2cdbc69.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6245e92b9fa7172385878bea9c04d82b0cb527ce7b728796b46065b5acc16ab9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/64479cc1127dbee045d230e69fcb6ea967f0b44b8b1e40e1dc12fe06a7c458d6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/62a80a5e25da7bc748924956453540bca9b0bdad64a1808f744f67d5ba108fc4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/64a89bcefb0ab3ffafb74655cdec747d4e49748b5d82ece8d9fb73a34730b115.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6513440f24ec94d788f765d3505bebe57b9a4d806ff5532b84bc4c1a5f917fc2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6513440f24ec94d788f765d3505bebe57b9a4d806ff5532b84bc4c1a5f917fc2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/65fef6b6e5cc3354292951b42839eaa15e0ef5a372d8b598486f7d1645020773.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/65fef6b6e5cc3354292951b42839eaa15e0ef5a372d8b598486f7d1645020773.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/65fef6b6e5cc3354292951b42839eaa15e0ef5a372d8b598486f7d1645020773.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/65fef6b6e5cc3354292951b42839eaa15e0ef5a372d8b598486f7d1645020773.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/674410eaa49c41e300c7f0462dbc674bac89ce5f0b4322a4ceec087823234c67.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ff8d25500506d0f4db809b7c2935fa05497f1796da69a19fe792a049b645ae05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/674410eaa49c41e300c7f0462dbc674bac89ce5f0b4322a4ceec087823234c67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/69dd0b3ffd65dfd55607b86dff53d681f8ec0ace7475c5aa4b86ccf63d9addca.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1377080d0563b5b12eeebbe9db8548512ab8ff491b9b39ef88015f47c65eca67.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e177fbf78b4c33af100ce0fdc1379888d9f6e99ff7a6d19d13f671047626d01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e177fbf78b4c33af100ce0fdc1379888d9f6e99ff7a6d19d13f671047626d01.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e177fbf78b4c33af100ce0fdc1379888d9f6e99ff7a6d19d13f671047626d01.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e177fbf78b4c33af100ce0fdc1379888d9f6e99ff7a6d19d13f671047626d01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e68b461dc608bbbfd62d6b69b1886e19d03f14113afd9ffaec09b2ce80f07a0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/702a71fac694d8af4ea9cbf24a8b06ea55c4070c571f8ea36f0a3ef6bc38da4f.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/725166956e49930f42663bd518b5cd18a5bfec7aebe9a65aa346994c278c801a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7504f1e07f38686ad9e29daa8d1d3101afd2e0af16c8d1307d0e413e3301d2d5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7504f1e07f38686ad9e29daa8d1d3101afd2e0af16c8d1307d0e413e3301d2d5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/77952342cafe5094d718b6c5e32ddf29e83b787f4eeb0412932c9a696203fb50.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7cf0e26ca14d156430d0c87a0ebe3a25f487028fd8959253bd4ec830c8aa8241.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7cf0e26ca14d156430d0c87a0ebe3a25f487028fd8959253bd4ec830c8aa8241.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7cf0e26ca14d156430d0c87a0ebe3a25f487028fd8959253bd4ec830c8aa8241.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7cf0e26ca14d156430d0c87a0ebe3a25f487028fd8959253bd4ec830c8aa8241.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7e8ef59aa365dc22884228db49f7a18f46c5e92c40a0da6528e2a42099741d16.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7e8ef59aa365dc22884228db49f7a18f46c5e92c40a0da6528e2a42099741d16.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/81e7a73a6d9b79cff71b59d62117f6c575de8360b1ae328763ca12c9c157e9fb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/81e7a73a6d9b79cff71b59d62117f6c575de8360b1ae328763ca12c9c157e9fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8858400bd6cf554364b6e85c593e84d50e5ab51ef5b7638bbfd89931e93e303f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8858400bd6cf554364b6e85c593e84d50e5ab51ef5b7638bbfd89931e93e303f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/898b258767c73045b4ca8acaa5a06c0f24a1bf0b1cc70212213a7ca0b81ce072.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/898b258767c73045b4ca8acaa5a06c0f24a1bf0b1cc70212213a7ca0b81ce072.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/89fde479a100bcacaffe829c7cf40b286c7e08232cff867b7ec26b64af681736.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/89fde479a100bcacaffe829c7cf40b286c7e08232cff867b7ec26b64af681736.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/89fde479a100bcacaffe829c7cf40b286c7e08232cff867b7ec26b64af681736.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/89fde479a100bcacaffe829c7cf40b286c7e08232cff867b7ec26b64af681736.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8a30401c0e0682fd5d97b01d5c706daa776298fbc1e62a8165e7dfe797443036.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8a30401c0e0682fd5d97b01d5c706daa776298fbc1e62a8165e7dfe797443036.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8a30401c0e0682fd5d97b01d5c706daa776298fbc1e62a8165e7dfe797443036.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8a30401c0e0682fd5d97b01d5c706daa776298fbc1e62a8165e7dfe797443036.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/972c26d590f627e36988ab14cccb2e88bf0e36e2592a36c45981a2d268399f30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/972c26d590f627e36988ab14cccb2e88bf0e36e2592a36c45981a2d268399f30.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/979a055f411be8934ab09015b584b30576c42a32bdd9c8dee6de2a280ec5d1e8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/979a055f411be8934ab09015b584b30576c42a32bdd9c8dee6de2a280ec5d1e8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/980245d7284e27ad1a3ffab60e0f26c3a1000cf72d7a84987c99d1f9a7d8b8e3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/980245d7284e27ad1a3ffab60e0f26c3a1000cf72d7a84987c99d1f9a7d8b8e3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/988b4d4ed412ad816c7128094cb3e96d5b3b620f77325fbbacee4d6fe86acfcb.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-074a535e6a659a53998c4ba2c697381383fd88f0f8318cc3c8e90b4749584f42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a1540c49fc5726ad75b70212f733987615d496d964e68046a8dc90944bdc3f2e.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a1540c49fc5726ad75b70212f733987615d496d964e68046a8dc90944bdc3f2e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8996ab50a10737806466a825fc25a6eefc0121aef784846cf15c54ad26d31f92.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a2cd23c01f0c55a0f6fc0b01ccd359101788431d75cf268c676eaea034a4f207.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a2cd23c01f0c55a0f6fc0b01ccd359101788431d75cf268c676eaea034a4f207.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a2cd23c01f0c55a0f6fc0b01ccd359101788431d75cf268c676eaea034a4f207.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a2cd23c01f0c55a0f6fc0b01ccd359101788431d75cf268c676eaea034a4f207.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a4ac4816e61b4c5cf7e837b8306c83dcb888b37cbc304f171a121e8622dd8f77.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a4ac4816e61b4c5cf7e837b8306c83dcb888b37cbc304f171a121e8622dd8f77.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a83cf44202beaf6b5eff4c2a5808bf00589b846dec60bd13d32270390a3f15eb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a83cf44202beaf6b5eff4c2a5808bf00589b846dec60bd13d32270390a3f15eb.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a83cf44202beaf6b5eff4c2a5808bf00589b846dec60bd13d32270390a3f15eb.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a83cf44202beaf6b5eff4c2a5808bf00589b846dec60bd13d32270390a3f15eb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ab8f442a91806bbe9f00a8d93c1f14293932dc0cdf2ec806615409042d88c0b6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ab8f442a91806bbe9f00a8d93c1f14293932dc0cdf2ec806615409042d88c0b6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ab8f442a91806bbe9f00a8d93c1f14293932dc0cdf2ec806615409042d88c0b6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ab8f442a91806bbe9f00a8d93c1f14293932dc0cdf2ec806615409042d88c0b6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ae622d90eb2e6c55b1b9bd34b8e7da5d07f512edf191558270b92acf3d9cbe00.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ae622d90eb2e6c55b1b9bd34b8e7da5d07f512edf191558270b92acf3d9cbe00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b1263571bea01fa804fc26d84cd061d1b4b08a4061d3e85e88f9f097bf52aafd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b1263571bea01fa804fc26d84cd061d1b4b08a4061d3e85e88f9f097bf52aafd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b3ab570cbbd42f83f39eea096bb0e08b97efcad0dec0171732175db7b21980bd.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b3ab570cbbd42f83f39eea096bb0e08b97efcad0dec0171732175db7b21980bd.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b4b839ea1744ee894adb5f76ed697106f15e20ab9599e4b9b8d9908c6633d046.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b4b839ea1744ee894adb5f76ed697106f15e20ab9599e4b9b8d9908c6633d046.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b666f4104498a9ae99305e2f6c128ec024c1d82b6d23790fc13440c7d87fb9ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b68d4ed3e3bb921275947ba6d0e5bdc1d5a91ce17c804c02bec52ce22441d2a6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b68d4ed3e3bb921275947ba6d0e5bdc1d5a91ce17c804c02bec52ce22441d2a6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b7eaf29e9c861e170a5b497ddda012632f3b2b69f8958d3593da7c8f7a1cab94.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b7eaf29e9c861e170a5b497ddda012632f3b2b69f8958d3593da7c8f7a1cab94.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b8f267beb13e44ef93981d1bd57a8668144cccebcfae6fc3f11683682edcabd9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b8f267beb13e44ef93981d1bd57a8668144cccebcfae6fc3f11683682edcabd9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b8f267beb13e44ef93981d1bd57a8668144cccebcfae6fc3f11683682edcabd9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b8f267beb13e44ef93981d1bd57a8668144cccebcfae6fc3f11683682edcabd9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b999043461837f99e6564ee4773cf0f17c4d75a8a83b024390bbcf277af77a75.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b999043461837f99e6564ee4773cf0f17c4d75a8a83b024390bbcf277af77a75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ba763981d449cdbff864ec6fd77ee63d497e2f187c171cf7a045186dd504fa06.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ba763981d449cdbff864ec6fd77ee63d497e2f187c171cf7a045186dd504fa06.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ba763981d449cdbff864ec6fd77ee63d497e2f187c171cf7a045186dd504fa06.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ba763981d449cdbff864ec6fd77ee63d497e2f187c171cf7a045186dd504fa06.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bb9cf61884e49fa21be2d3714344596bd4dd287c4d398329809ed6044496eb14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bb9cf61884e49fa21be2d3714344596bd4dd287c4d398329809ed6044496eb14.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9d3ae7a92340f567997bc27aac81b39186c24c2b79622fd64f58ec0d698e0227.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c1dcd1437eb724cd18541421247f8a3a9ee4d5d1977ccfe65279ea3b32f36aca.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c1dcd1437eb724cd18541421247f8a3a9ee4d5d1977ccfe65279ea3b32f36aca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c364943f8a4bcc94d1ff3ab0974061aef0894306968da7260a54b07b0022c686.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c364943f8a4bcc94d1ff3ab0974061aef0894306968da7260a54b07b0022c686.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c38e29954d29ff49d3939a345f5ec38777446619a99fb0987f15aa2977e379c7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c3e5decd54186cafcd30ffe0861a2d424b381ec9d9617ef8adc7915561e32126.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c83e3c50c60aa73d37fa19d14168f55fabfa1703fd97243944f0dbd9f4ad4e18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8945c6c7629387dfbba13f18e92600a265ac913685254cf35282dbc30c2f6ff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d59d13bd5354d253896e19a87c2d4a217e246c489ed45360d8cea06ee1a7a6c7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d74a01d7c72725a38a693abbe22e3a416d9639edfe2ce0b146609fd8149214fe.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d79b61245c4932654d2cbf184e02e13fded58e81c113bc8d667481ce56540fd1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d79b61245c4932654d2cbf184e02e13fded58e81c113bc8d667481ce56540fd1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d79b61245c4932654d2cbf184e02e13fded58e81c113bc8d667481ce56540fd1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d79b61245c4932654d2cbf184e02e13fded58e81c113bc8d667481ce56540fd1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e23f9633c28711192b6ce9e039da793178b774b0bf1112aa7f15cab49c27a855.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e4c25f4ad63e8bd45d04624446e1f8b3ef7ea0f173222c3fd21424a438deb7e9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e4c25f4ad63e8bd45d04624446e1f8b3ef7ea0f173222c3fd21424a438deb7e9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ee32fb33a3275723f40e47594d3e31554bc0e6c05a513523504e621cb35516ff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ef6493bae870b4638e670585dccc67af09c1529960dab38c5d94182ceeedcfac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f446c7b12a744fbf427952bd679f63f76d6c5f4cda11613c1121355e3da4ae98.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f49d22d9da584908eea110420c0fe12f4d537c39c9917b5670073820598f3dfa.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f49d22d9da584908eea110420c0fe12f4d537c39c9917b5670073820598f3dfa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d3e19513e54ad76b75c49c6b31533176582a27f253d7c23325250580d8acbdfb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f8ab05a14dba8adf0e6cfd0b2d2abbde041e3abf07917c9783a011fec84d6830.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f8ab05a14dba8adf0e6cfd0b2d2abbde041e3abf07917c9783a011fec84d6830.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f8db819fd1360f38cb223e79f2559202eac77df80f5137e20969162d74dda8d7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/faf3dbcb5417d8a12353c3067e738aaece116d227a970fb43d6816a496592114.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/faf3dbcb5417d8a12353c3067e738aaece116d227a970fb43d6816a496592114.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/faf3dbcb5417d8a12353c3067e738aaece116d227a970fb43d6816a496592114.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/faf3dbcb5417d8a12353c3067e738aaece116d227a970fb43d6816a496592114.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fcd94c5f4ea142e3c1ff5acdd18f2180dfa0a7996a948faf3a218c2509090eb5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fcd94c5f4ea142e3c1ff5acdd18f2180dfa0a7996a948faf3a218c2509090eb5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ffc4e6ecab4f0457f0ff412b1da435aa61b74a1f8f58f3bded053a899a70f4df.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CreateUser/createApiUser.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DeleteUser/deleteUserApi.feature" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +213,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -30,10 +233,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="92">
+              <caret line="60" column="83" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/getInteraction/GetUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/QueryUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,28 +272,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" column="10" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -71,8 +281,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="660">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +291,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/SearchUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Datum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +333,9 @@
       <find>net.serenity-bdd.maven.plugins</find>
       <find>org.codehaus.mojo</find>
       <find>serenity-ensure</find>
+      <find>Data</find>
+      <find>cucumber</find>
+      <find>los usuarios creados en el sistema son listados</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -139,20 +367,31 @@
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/GetCreateUserResponse.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/ValidationResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createUser.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/UpdateUser/updateUser.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUser.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/GetUsersResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Support.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/getInteraction/GetUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/QueryUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Datum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/SearchUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" />
       </list>
     </option>
@@ -207,15 +446,17 @@
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,6 +480,77 @@
               <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Interactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Interactions" type="462c0819:PsiDirectoryNode" />
+              <item name="getInteraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Interactions" type="462c0819:PsiDirectoryNode" />
+              <item name="postInteraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,6 +567,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
@@ -275,11 +596,71 @@
               <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
               <item name="apiInteractionSteps" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiRestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+              <item name="commonsSteps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="DeleteUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="GetUsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="UpdateUser" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,17 +668,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ApiRestAutomation.Interactions.utils" />
-      <recent name="ApiRestAutomation.Interactions" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ApiRestAutomation.Models" />
+      <recent name="ApiRestAutomation.Interactions.utils" />
+      <recent name="ApiRestAutomation.Interactions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,13 +712,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: createApiUser (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature" />
+    <configuration name="Scenario: Consultar un usuario en particular" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature" />
+      <option name="GLUE" value="ApiRestAutomation.step_definitions.commonsSteps ApiRestAutomation.step_definitions.apiInteractionSteps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ApiTesting" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: createApiUser" />
+      <option name="NAME_FILTER" value="^Consultar un usuario en particular$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Consultar un usuario en particular$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consultar un usuario en particular" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -416,7 +800,7 @@
       <option name="MAIN_CLASS_NAME" value="ApiRestAutomation.runners.Runner" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@tester&quot;" />
+      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=&quot;@tester1&quot;" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -424,18 +808,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: ApiTesting" />
-      <item itemvalue="Cucumber java.Feature: createApiUser (1)" />
       <item itemvalue="Cucumber java.Scenario: Crear nuevo usuario de la compañía" />
+      <item itemvalue="Cucumber java.Scenario: Consultar un usuario en particular" />
       <item itemvalue="JUnit.Runner1" />
       <item itemvalue="JUnit.Runner2" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner2" />
+        <item itemvalue="Cucumber java.Scenario: Consultar un usuario en particular" />
         <item itemvalue="JUnit.Runner1" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber java.Scenario: Crear nuevo usuario de la compañía" />
-        <item itemvalue="Cucumber java.Feature: createApiUser (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -453,41 +837,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner2 - 2021.05.20 at 19h 03m 40s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 20h 59m 41s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 04m 13s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 03m 18s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 06m 10s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 05m 23s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 07m 29s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 13m 48s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 16m 34s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 15m 07s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 19m 16s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 20m 49s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 22m 17s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 25m 15s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 39m 44s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 26m 13s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 42m 19s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 31m 09s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner2 - 2021.05.20 at 19h 42m 39s.xml">
+    <history-entry file="Runner2 - 2021.05.21 at 21h 32m 35s.xml">
       <configuration name="Runner2" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="25" width="1440" height="814" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,17 +889,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52048194" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5192771" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5939759" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62289155" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.424581" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,18 +920,6 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -553,6 +934,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>nuevaLista</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>urlBase</expression-string>
         <language-id>JAVA</language-id>
@@ -593,17 +979,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>finalUrl.replace(&quot;&quot;,&quot;&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/tester.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/tester.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/tester.java" />
     <entry file="file://$PROJECT_DIR$/src/README.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.0.0/cucumber-java-2.0.0.jar!/cucumber/api/java8/GlueBase.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,30 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUserApi.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/6.6.0/cucumber-java-6.6.0.jar!/io/cucumber/java/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -783,44 +1137,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="64" lean-forward="true" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -834,39 +1154,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteUser/deleteUser.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createApiUser.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/UpdateUser/updateUser.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/CreateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
           <caret line="37" column="10" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -876,13 +1197,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Support.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/commonsSteps/CommonSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/GetUsersResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateUser/createUser.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.3.4/serenity-core-2.3.4.jar!/net/thucydides/core/steps/BaseMethodRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.3.4/serenity-screenplay-2.3.4.jar!/net/serenitybdd/screenplay/Actor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Questions/SearchUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Task/QueryUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Models/Datum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay/2.3.4/serenity-screenplay-2.3.4.jar!/net/serenitybdd/screenplay/GivenWhenThen.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
+          <folding>
+            <element signature="e#6757#6758#0" expanded="true" />
+            <element signature="e#6804#6805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ApiInteractionSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiRestAutomation/Interactions/getInteraction/GetUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="60" column="83" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="83" />
         </state>
       </provider>
     </entry>
