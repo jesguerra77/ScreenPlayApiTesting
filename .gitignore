@@ -1,6 +1,6 @@
 target/
 .idea
-.idea/
+.idea/*
 # .idea folder
 .idea/
 *.iml
@@ -8,6 +8,7 @@ target/
 .classpath
 .settings/
 target
+workspace.xml
 
 # Package Files #
 *.jar
