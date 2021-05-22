@@ -1,5 +1,5 @@
 target/
-.idea
+idea/
 .idea/*
 # .idea folder
 .idea/
@@ -9,6 +9,7 @@ target/
 .settings/
 target
 workspace.xml
+test
 
 # Package Files #
 *.jar
