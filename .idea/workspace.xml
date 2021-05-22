@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="" />
+    <list default="true" id="a9fd800d-d8dc-4646-8d71-e191d110b063" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="60" column="83" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="83" />
+            <state relative-caret-position="288">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -199,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/GetUsers/getUsers.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -463,6 +476,11 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="UpdateUser" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ApiTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -685,8 +703,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -700,7 +719,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3912484" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3912484" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32891566" />
@@ -788,7 +807,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/README.md" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.0.0/cucumber-java-2.0.0.jar!/cucumber/api/java8/GlueBase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1168,8 +1186,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiRestAutomation/step_definitions/apiInteractionSteps/ValidationResponses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="60" column="83" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="83" />
+        <state relative-caret-position="288">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
