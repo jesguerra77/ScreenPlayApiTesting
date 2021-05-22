@@ -1,5 +1,6 @@
 target/
 .idea
+.idea/
 # .idea folder
 .idea/
 *.iml
