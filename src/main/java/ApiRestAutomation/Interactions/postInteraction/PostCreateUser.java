@@ -24,11 +24,6 @@ public class PostCreateUser extends ApiAutomationInteraction {
     @Step("{0} Realiza la creación del usuario nuevo")
     public <T extends Actor> void performAs(T actor) {
 
-//        EnvironmentVariables variables = SystemEnvironmentVariables.createEnvironmentVariables();
-//        String urlBase = variables.getProperty("env.base.url");
-//        String finalUrl = urlBase.concat(RootApiPaths.CREATE_USER.getUrlPath());
-//        String otherUrl = finalUrl.replace("'","");
-
         actor.attemptsTo(
                 Post.to(RootApiPaths.CREATE_USER.getUrlPath())
                         .with(requestSpecification -> rootBasicRequest()

@@ -4,23 +4,23 @@ import ApiRestAutomation.Interactions.utils.ApiInteraction;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-import static net.serenitybdd.rest.SerenityRest.with;
+import static net.serenitybdd.rest.SerenityRest.given;
 
 public abstract class ApiAutomationInteraction extends ApiInteraction {
 
 
     protected static RequestSpecification rootBasicRequest() {
-        return with()
-                .header("ContentType","application/json")
-                .header("accept","*/*");
+        return given()
+                .contentType(ContentType.JSON)
+                .header("header1","value1");
     }
 
     protected enum RootApiPaths {
 
-        CREATE_USER("/users"),
-        DELETE_USER("/users/2"),
-        UPDATE_USER("/users/2"),
-        LIST_USER("/users?page={page}"),
+        CREATE_USER("/create"),
+        DELETE_USER("/delete/{id}"),
+        UPDATE_USER("/update/{id}"),
+        LIST_USER("/employees"),
         ;
         private String urlPath;
 

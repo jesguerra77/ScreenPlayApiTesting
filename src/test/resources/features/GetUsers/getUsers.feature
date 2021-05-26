@@ -16,5 +16,5 @@ Feature: como administrador del sistema
     Then el usuario con el <id> es listado en el sistema
     Examples:
       | id |
-      | 2  |
+      | 1  |
       | 2  |

@@ -18,12 +18,14 @@ public class CreateUser implements Task {
 
     private String messageValidation;
     private String name;
-    private String job;
+    private String salary;
+    private String age;
     private Integer statusCode = HttpServletResponse.SC_OK;
 
-    public CreateUser(String name, String job) {
+    public CreateUser(String name, String salary, String age) {
         this.name = name;
-        this.job = job;
+        this.salary = salary;
+        this.age = age;
     }
 
     @Override
@@ -31,15 +33,15 @@ public class CreateUser implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                PostCreateUser.with(CreateUserBuilder.createUserRequest(name, job))
+                PostCreateUser.with(CreateUserBuilder.createUserRequest(name, salary, age))
         );
         theActorInTheSpotlight().should(
                 seeThat(messageValidation, actor1 -> actor.asksFor(getStatusCode()), equalTo(statusCode))
         );
     }
 
-    public static CreateUser toCompany(String name, String job) {
-        return instrumented(CreateUser.class, name, job);
+    public static CreateUser toCompany(String name, String salary, String age) {
+        return instrumented(CreateUser.class, name, salary, age);
     }
 
     public CreateUser withStatusCode(int statusCode) {

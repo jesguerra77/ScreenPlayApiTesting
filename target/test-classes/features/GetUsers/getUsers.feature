@@ -13,8 +13,8 @@ Feature: como administrador del sistema
   @tester1
   Scenario Outline: Consultar un usuario en particular
     When "administrador" consulta usuario con el <id>
-    Then el usuario es listado en el sistema
+    Then el usuario con el <id> es listado en el sistema
     Examples:
       | id |
-      | 2  |
+      | 1  |
       | 2  |

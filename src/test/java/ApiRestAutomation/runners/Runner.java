@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/",
-        glue = {"ApiRestAutomation/step_definitions"}
+        glue = {"ApiRestAutomation/stepdefinitions"}
 
 )
 public class Runner {

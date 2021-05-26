@@ -4,10 +4,11 @@ import ApiRestAutomation.Models.CreateUserRequest;
 
 public class CreateUserBuilder {
 
-    public static CreateUserRequest createUserRequest(String name, String job) {
+    public static CreateUserRequest createUserRequest(String name, String salary, String age) {
         return CreateUserRequest.builder()
                 .name(name)
-                .job(job)
+                .salary(salary)
+                .age(age)
                 .build();
     }
 }

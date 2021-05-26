@@ -12,10 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 public class GetUsersResponse {
 
-    private Integer page;
-    private Integer perPage;
-    private Integer total;
-    private Integer totalPages;
-    private List<Datum> data = null;
-    private Support support;
+   private String status;
+   private List<Datum> data;
+   private String message;
 }

@@ -6,13 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
-@lombok.Data
+@Data
 @Builder
 @NoArgsConstructor
 public class Datum {
     private Integer id;
-    private String email;
-    private String firstName;
-    private String lastName;
-    private String avatar;
+    private String employee_name;
+    private Integer employee_salary;
+    private Integer employee_age;
+    private String profile_image;
 }

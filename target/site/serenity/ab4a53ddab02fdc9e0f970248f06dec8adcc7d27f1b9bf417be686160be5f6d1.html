@@ -279,7 +279,7 @@ para tener los datos actualizados del usuario
                                                 <table class="table" id="toc-table">
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
-                                                                <a href="#e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" title="View scenario details" ></a>
+                                                                <a href="#4838d341874629b05bb1e41bfffa759da19a6194eaba4a20de473077c3547988" title="View scenario details" >Como administrador deseo poder actualizar usuarios en el sistema</a>
 
 
                                                             </td>
@@ -321,11 +321,11 @@ para tener los datos actualizados del usuario
 
                                             <h3>Scenario details</h3>
 
-                                                <div class="scenario-docs card" id="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855">
+                                                <div class="scenario-docs card" id="4838d341874629b05bb1e41bfffa759da19a6194eaba4a20de473077c3547988">
                                                     <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="" title="View test results"></a>
+                                                                <a href="" title="View test results">Background: como administrador deseo poder actualizar usuarios en el sistema</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
@@ -336,6 +336,7 @@ para tener los datos actualizados del usuario
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
+                                                            <p>Given como administrador quiero validar los permisos en el sistema</p>
                                                         <div class="examples">
                                                         </div>
                                                     </div>
@@ -356,19 +357,17 @@ para tener los datos actualizados del usuario
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
-                                                            <p>When &quot;el administrador&quot; realiza la solicitud de atualización del usuario con {name} y {cargo}</p>
-                                                            <p>Then el usuario es actualizado</p>
+                                                            <p>When &quot;el administrador&quot; realiza la solicitud de actualización del usuario con {id} {nombre} {salario} y {edad}</p>
+                                                            <p>Then el usuario es actualizado con los siguientes datos {nombre} {salario} {edad}</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
-<blockquote>
-</blockquote>
 <div class='example-table-in-scenario'><table>
 <thead>
-<tr><th>name</th><th>cargo</th><th></th></tr>
+<tr><th>id</th><th>nombre</th><th>salario</th><th>edad</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>name</td><td>cargo</td><td> </td></tr>
-<tr><td>name</td><td>cargo</td><td> </td></tr>
+<tr><td>1</td><td>johnathan</td><td>123</td><td>12</td><td> </td></tr>
+<tr><td>2</td><td>Alexander</td><td>123</td><td>43</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -505,18 +504,6 @@ para tener los datos actualizados del usuario
                                                 <tbody>
                                                 <tr class="scenario-result UNDEFINED">
                                                     <td>
-                                                            
-                                                    </td>
-                                                    <td>0</td>
-                                                    <td> </td>
-                                                    <td> </td>
-                                                    <td>
-                                                            <i class="fas fa-pause"
-                                                               title="No test has been implemented yet"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr class="scenario-result UNDEFINED">
-                                                    <td>
                                                             actualizar usuario
                                                                (2 examples)
                                                     </td>
@@ -554,7 +541,7 @@ para tener los datos actualizados del usuario
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span class="version">Serenity BDD version 2.3.4</span>
+                        <span class="version">Serenity BDD version 2.2.0</span>
                     </div>
                 </div>
             </div>

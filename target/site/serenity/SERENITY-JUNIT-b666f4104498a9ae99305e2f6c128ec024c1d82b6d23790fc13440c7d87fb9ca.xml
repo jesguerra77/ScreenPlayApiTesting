@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Creación de usuario" skipped="0" tests="2" time="6.42" timestamp="2021-05-21 09:25:07"><testcase name="Crear nuevo usuario de la compañía"><failure message="&#10;Expected: &lt;200&gt;&#10;     but: was &lt;403&gt;" type="java.lang.AssertionError">
-Expected: &lt;200&gt;
-     but: was &lt;403&gt;</failure><system-err>
-Expected: &lt;200&gt;
-     but: was &lt;403&gt;
-ApiRestAutomation.Task.CreateUser.performAs(CreateUser.java:36)
-ApiRestAutomation.step_definitions.apiInteractionSteps.ApiInteractionSteps.realizaElRegistroCorrectoConNombreYCargo(ApiInteractionSteps.java:16)
-✽."el administrador" realiza el registro correcto con johnathan y leader(file:///Users/johnathane/Documents/Respositorios/ApiTesting/src/test/resources/features/CreateUser/createUser.feature:8)
-</system-err></testcase></testsuite>

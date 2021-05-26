@@ -2,6 +2,7 @@ package ApiRestAutomation.Interactions.getInteraction;
 
 import ApiRestAutomation.Interactions.ApiAutomationInteraction;
 import ApiRestAutomation.Models.GetUsersResponse;
+import io.restassured.http.ContentType;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.rest.interactions.Get;
@@ -13,8 +14,7 @@ public class GetUsers extends ApiAutomationInteraction {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Get.resource(RootApiPaths.LIST_USER.getUrlPath())
-                        .with(requestSpecification -> rootBasicRequest()
-                                .pathParam("page", 2))
+                        .with(requestSpecification -> rootBasicRequest())
         );
     }
 

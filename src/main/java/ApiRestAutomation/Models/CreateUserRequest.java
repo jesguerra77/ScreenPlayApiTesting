@@ -12,5 +12,6 @@ import lombok.NoArgsConstructor;
 public class CreateUserRequest {
 
     private String name;
-    private String job;
+    private String salary;
+    private String age;
 }

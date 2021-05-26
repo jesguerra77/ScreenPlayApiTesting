@@ -278,7 +278,7 @@
                                                 <table class="table" id="toc-table">
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
-                                                                <a href="#e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" title="View scenario details" ></a>
+                                                                <a href="#610be83a5482adb064f6a2f8e266cbd76e3666712d87e9218b1d52c100da6b98" title="View scenario details" >El administrador desea crear usuarios en el sistema</a>
 
 
                                                             </td>
@@ -298,7 +298,7 @@
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
                                                                 <a href="#5c200b1f8c75e584fadfa4403a11cf951483a260c412242535a3b71b4f857a60" title="View scenario details" >Eliminar usuarios que ya no pertenecen a la compañia</a>
-                                                                     (1 example)
+                                                                     (2 examples)
 
                                                             </td>
                                                             <td style="width:5%;">
@@ -317,26 +317,7 @@
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
                                                                 <a href="#688e576b9d03974fbc05f64a1077a71439ba879a7d74e60db2e499436245d8a7" title="View scenario details" >Intentar eliminar usuarios que no existen en la compañia</a>
-                                                                     (3 examples)
-
-                                                            </td>
-                                                            <td style="width:5%;">
-                                                                <table>
-                                                                    <tr>
-                                                                        <td>
-                                                                            
-                                                                            
-
-                                                                        
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="width:95%;" class="toc-title">
-                                                                <a href="#aaefe560d7871fd4dfb62c03865e9b79e688a8d9a57d3834f3fc7fb13b99fb91" title="View scenario details" >Intentar eliminar usuarios con emial inválido</a>
-                                                                     (2 examples)
+                                                                     (1 example)
 
                                                             </td>
                                                             <td style="width:5%;">
@@ -358,11 +339,11 @@
 
                                             <h3>Scenario details</h3>
 
-                                                <div class="scenario-docs card" id="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855">
+                                                <div class="scenario-docs card" id="610be83a5482adb064f6a2f8e266cbd76e3666712d87e9218b1d52c100da6b98">
                                                     <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="" title="View test results"></a>
+                                                                <a href="" title="View test results">Background: el administrador desea crear usuarios en el sistema</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
@@ -373,6 +354,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
+                                                            <p>Given como administrador quiero validar los permisos en el sistema</p>
                                                         <div class="examples">
                                                         </div>
                                                     </div>
@@ -393,19 +375,18 @@
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
-                                                            <p>And consulta el usuario con el {id} a eliminar exista en el sistema</p>
-                                                            <p>When el administrador elimina el usuario con los datos correctos {email}</p>
-                                                            <p>Then el usuario es eliminado de la compañia</p>
+                                                            <p>And &quot;administrador&quot; consulta usuario con el {id}</p>
+                                                            <p>When el administrador elimina el usuario con los datos correctos {id}</p>
+                                                            <p>Then el usuario con el {id} sea eliminado de la compañia</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
-<blockquote>
-</blockquote>
 <div class='example-table-in-scenario'><table>
 <thead>
-<tr><th>email</th><th></th></tr>
+<tr><th>id</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>email</td><td> </td></tr>
+<tr><td>1</td><td> </td></tr>
+<tr><td>2</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -428,55 +409,16 @@
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
-                                                            <p>When intenta eliminar un usuario con {idIncorrecto}</p>
+                                                            <p>When &quot;administrador&quot; intenta eliminar un usuario con {idIncorrecto}</p>
                                                             <p>Then el usuario no puede ser eliminado de la compañía</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
-<blockquote>
-</blockquote>
 <div class='example-table-in-scenario'><table>
 <thead>
 <tr><th>idIncorrecto</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>00000</td><td> </td></tr>
-<tr><td>xxxxx</td><td> </td></tr>
-<tr><td>0101010</td><td> </td></tr>
-</tbody>
-</table></div>
-</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="scenario-docs card" id="aaefe560d7871fd4dfb62c03865e9b79e688a8d9a57d3834f3fc7fb13b99fb91">
-                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="" title="View test results">Intentar eliminar usuarios con emial inválido</a>
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <i class="fas fa-pause"
-                                                                       title="No test has been implemented yet"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>When intenta eliminar un usuario con {emailIncorrecto}</p>
-                                                            <p>Then el usuario no puede ser eliminado de la compañía</p>
-                                                        <div class="examples">
-                                                            <p><p>Examples:</p>
-<blockquote>
-</blockquote>
-<div class='example-table-in-scenario'><table>
-<thead>
-<tr><th>emailIncorrecto</th><th></th></tr>
-</thead>
-<tbody>
-<tr><td>test@</td><td> </td></tr>
-<tr><td>tester.gmail.com</td><td> </td></tr>
+<tr><td>%</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -613,20 +555,8 @@
                                                 <tbody>
                                                 <tr class="scenario-result UNDEFINED">
                                                     <td>
-                                                            
-                                                    </td>
-                                                    <td>0</td>
-                                                    <td> </td>
-                                                    <td> </td>
-                                                    <td>
-                                                            <i class="fas fa-pause"
-                                                               title="No test has been implemented yet"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr class="scenario-result UNDEFINED">
-                                                    <td>
                                                             Eliminar usuarios que ya no pertenecen a la compañia
-                                                               (1 example)
+                                                               (2 examples)
                                                     </td>
                                                     <td>3</td>
                                                     <td> </td>
@@ -639,20 +569,7 @@
                                                 <tr class="scenario-result UNDEFINED">
                                                     <td>
                                                             Intentar eliminar usuarios que no existen en la compañia
-                                                               (3 examples)
-                                                    </td>
-                                                    <td>2</td>
-                                                    <td> </td>
-                                                    <td> </td>
-                                                    <td>
-                                                            <i class="fas fa-pause"
-                                                               title="No test has been implemented yet"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr class="scenario-result UNDEFINED">
-                                                    <td>
-                                                            Intentar eliminar usuarios con emial inválido
-                                                               (2 examples)
+                                                               (1 example)
                                                     </td>
                                                     <td>2</td>
                                                     <td> </td>
@@ -688,7 +605,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
-                        <span class="version">Serenity BDD version 2.3.4</span>
+                        <span class="version">Serenity BDD version 2.2.0</span>
                     </div>
                 </div>
             </div>
