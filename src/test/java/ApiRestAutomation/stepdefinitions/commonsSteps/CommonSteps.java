@@ -49,6 +49,7 @@ public class CommonSteps {
     @When("(.*) quiere consultar los usuarios que tengan un salario mayor a (.*) y tengan menos de (.*) en la compañia$")
     public void quiereConsultarLosUsuariosQueTenganUnSalarioMayorASalarioYTenganMenosDeMesesEnLaCompania(String userAdmin, String salary, String months) {
         theActorInTheSpotlight()
-                .attemptsTo(UserInteraccionDB.with(statement, Querys.WHERE.toString().replace("{salario}", salary).replace("{meses}", months)));
+                .attemptsTo(UserInteraccionDB.with(
+                        statement, Querys.WHERE.toString().replace("{salario}", salary).replace("{meses}", months)));
     }
 }

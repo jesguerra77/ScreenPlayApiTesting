@@ -16,6 +16,8 @@ El framework de Automatización esta compuesto de las siguientes herramientas
 
 `Serenity Rest`
 
+`API Publica : https://dummy.restapiexample.com/api/v1`
+
 ##Compilación proyecto
  Descargar el proyecto como build Maven (Asegurarse de descargar todas la dependencias correspondientes)
      

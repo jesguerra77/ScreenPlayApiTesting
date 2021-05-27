@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Creación de usuario","Crear nuevo usuario de la compañía","SUCCESS","2021-05-27T00:17:21.119-05:00[America/Bogota]","0.0","8.09"
-"Creación de usuario","Crear nuevo usuario con datos incorrectos","FAILURE","2021-05-27T00:17:29.209-05:00[America/Bogota]","0.0","3.14"
-"como administrador del sistema","insertar usuario en la base de datos","SUCCESS","2021-05-26T23:09:56.562-05:00[America/Bogota]","0.0","66.54"

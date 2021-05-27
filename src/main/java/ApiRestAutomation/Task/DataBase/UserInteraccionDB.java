@@ -10,8 +10,12 @@ import java.sql.Statement;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class UserInteraccionDB implements Task {
 
+    private static Logger logger = LoggerFactory.getLogger(UserInteraccionDB.class);
     private Statement statement;
     private String sqlQuery;
 
@@ -22,10 +26,15 @@ public class UserInteraccionDB implements Task {
 
     @SneakyThrows
     @Override
-    @Step("0 genera la conección con la base de datos")
+    @Step("0 genera la conexión con la base de datos")
     public <T extends Actor> void performAs(T actor) {
-        statement.execute(sqlQuery);
-        statement.close();
+
+        if (statement != null) {
+            statement.execute(sqlQuery);
+            statement.close();
+            logger.info("La conexión con la bd fue exitosa y se realizó la ejecución del script");
+        } else
+            throw new AssertionError("No fue posible realizar la operación en la base de datos");
     }
 
     public static UserInteraccionDB with(Statement statement, String sqlQuery) {
