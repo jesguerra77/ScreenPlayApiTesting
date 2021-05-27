@@ -21,20 +21,20 @@ El framework de Automatización esta compuesto de las siguientes herramientas
 ##Compilación proyecto
  Descargar el proyecto como build Maven (Asegurarse de descargar todas la dependencias correspondientes)
      
-    ` mvn clean`
+    mvn clean
     
-    ` mvn compile`
+    mvn compile
      
-    ` mvn install`
+    mvn install
     
 ##Instalar complementos
  Instalar los siguientes puglings
 
-    `a) Cucumber for java`
+    a) Cucumber for java
     
-     `c) Gherkin for java` 
+     b) Gherkin for java
      
-     `b) Lombok for java`
+     c) Lombok for java
      
     Asegurese de que las versiones instaladas sean compatibles con su versión de intellij
     
@@ -65,11 +65,11 @@ El framework de Automatización esta compuesto de las siguientes herramientas
  
 ` class : ApiRestAutomation.runners.Runner`
   
-`  VM -OPTIONS -ea -Dcucumber.filter.tags="@createUsers"  `
+`  VM -OPTIONS: -ea -Dcucumber.filter.tags="@createUsers"  `
 
 ##generación de reporte de pruebas
 
-EL reporte generado por serenity puede ser consultado en la ruta : `target/site/serenity` Abrir archivo index.html
+EL reporte generado por serenity puede ser consultado en la ruta : `target/site/serenity` Abrir archivo `index.html`
 
 en caso de requerir generar reporte ejecutar : `mvn serenity:aggregate`
 
@@ -81,5 +81,6 @@ Los escenarios especificados en BDD se encuentran en la siguiente ruta
 
 ##Ejecución Contenedor Docker - jenkis
 
-Se encuentra en construcción, ya se logró despluegar jenkins en el contendedor local docker, se esta trabajando en la ejecución
-de la imagen maven donde correran los diferentes escenarios.
+Se encuentra en construcción, ya se logró despluegar jenkins en el contendedor local docker, se esta trabajando en la configuración
+del jenkis file para incluir en CI, los escenarios pueden ser ejecutados como mvn proyect en jenkis
+sin problema.
