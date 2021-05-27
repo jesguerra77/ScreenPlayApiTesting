@@ -124,6 +124,21 @@
             <artifactId>serenity-single-page-report</artifactId>
             <version>2.1.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4-1204-jdbc41</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.4.1.Final</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -149,7 +164,6 @@
                 <version>2.22.1</version>
                 <executions>
                     <execution>
-                        <id>integration-test</id>
                         <goals>
                             <goal>integration-test</goal>
                             <goal>verify</goal>
@@ -183,6 +197,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
+                <executions>
+                    <execution>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
