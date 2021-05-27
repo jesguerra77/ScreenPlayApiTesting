@@ -10,10 +10,10 @@
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Interactions/ApiAutomationInteraction.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/Support.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/DataUser.java
+/Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/DataBase/UserInteraccionDB.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/DeleteUserFail.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/Datum.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Interactions/InteractWithDb.java
-/Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/PostgresSQL.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/data.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Factories/CreateUserBuilder.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/CreateUserRequest.java
@@ -22,7 +22,7 @@
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/DeleteUser.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Interactions/postInteraction/PostCreateUser.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/UpdateUser.java
+/Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/DataBase/QueryUsersDB.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/CreateUser.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Database/Querys/Querys.java
-/Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Task/DataBase/InsertUser.java
 /Users/johnathane/Documents/Respositorios/ApiTesting/src/main/java/ApiRestAutomation/Models/CreateUserResponse.java

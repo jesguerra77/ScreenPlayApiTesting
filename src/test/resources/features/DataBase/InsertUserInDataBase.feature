@@ -1,3 +1,4 @@
+@dataBaseTest
 Feature: como administrador del sistema
   quiero poder insertar un usuario en la base de datos
   para poder administrar la base de datos de la compañia

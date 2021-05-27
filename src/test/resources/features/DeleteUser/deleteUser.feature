@@ -15,7 +15,7 @@ Feature: Eliminar usuarios de la compañia
       | 1     |
       | 2     |
 
-  @Delete
+  @un-happyPath
   Scenario Outline: Intentar eliminar usuarios que no existen en la compañia
     When "administrador" intenta eliminar un usuario con <idIncorrecto>
     Then el usuario no puede ser eliminado de la compañía
