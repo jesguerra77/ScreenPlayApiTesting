@@ -1,4 +1,4 @@
-package ApiRestAutomation.Interactions;
+package ApiRestAutomation.Interactions.db;
 
 import net.serenitybdd.screenplay.Ability;
 import net.serenitybdd.screenplay.Actor;
